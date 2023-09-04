@@ -1,0 +1,17 @@
+Super Admin
+username - isuru    
+Password - 12345
+
+Admin
+username - idu
+Password - 1234
+
+User
+username - ami
+Password - 1234
+
+
+BSC/WD/22/35/3
+S.T.I.B.WEERAKOON
+
+

@@ -1,0 +1,70 @@
+@keyframes gradient{
+	0%{
+		background-position:0% 50%;
+	}
+	50%{
+		background-position:100% 50%;
+	}
+	100%{
+		background-position:0% 50%;
+	}
+}
+
+.btnlogin {
+  color: #ffffff !important;
+  background: #5050ff !important;
+}
+
+.btnlogin:hover {
+  color: #220000 !important;
+  background: linear-gradient(to right, #c78fff 0%, #ffa8ff 100%) !important;
+}
+
+.btnreset {
+  color: #ffffff !important;
+  background: #ff5050 !important;
+}
+
+.btnreset:hover {
+  color: #220000 !important;
+  background: linear-gradient(to right, #c78fff 0%, #ffa8ff 100%) !important;
+}
+
+.regbtn {
+  background: #336699;
+}
+
+.regbtn:hover {
+  background: #001f3d;
+}
+
+
+.bgg {
+  background: url(../img/indexbg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.modi {
+  background: linear-gradient(to right, #c78fff 0%, #ffa8ff 100%) !important;
+  color: #ffffff !important;
+}
+
+.btnprofile {
+  background: #5050ff !important;
+  color: white !important;
+}
+
+.btnprofile:hover {
+  background: #ff6162 !important;
+  /* color: #5050ff !important; */
+}
+
+.icardbg {
+  background: rgba(0, 0, 0, 0.432);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0, 0, 0);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgb(255, 255, 255);
+}

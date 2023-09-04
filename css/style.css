@@ -1,0 +1,135 @@
+
+.addbtn {
+  color: #ffffff !important;
+  background: #029aff !important;
+}
+
+.addbtn:hover {
+  color: #ffffff !important;
+  background: #6568ff !important;
+}
+
+.editbtn {
+  color: #ffffff !important;
+  background: #004750 !important;
+}
+
+.editbtn:hover {
+  color: #ffffff !important;
+  background: #016101 !important;
+}
+
+
+
+.actionmod {
+  background: linear-gradient(to right, #c78fff 0%, #ffa8ff 100%)
+}
+
+.btnlogin {
+  color: #000000 !important;
+  background: #ffffff !important;
+}
+
+.btnlogin:hover {
+  background: linear-gradient(to right, #c78fff 0%, #ffa8ff 100%) !important;
+}
+
+.aaa:hover {
+  color: rgb(255, 185, 55) !important;
+}
+
+.dropaaa:hover {
+  color: #000000 !important;
+  background: #83fff9 !important;
+}
+.dropaaalo:hover {
+  color: #000000 !important;
+  background: #ff5e5e !important;
+}
+
+
+
+.btnprofile {
+  background: #ffffff !important;
+  /* color: white !important; */
+}
+
+.btnprofile:hover {
+  background: linear-gradient(to right, #c78fff 0%, #ffa8ff 100%) !important;
+  /* color: #5050ff !important; */
+}
+
+.btnprofiledropdown {
+  background: #00366d !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.icardbg {
+  background: rgba(0, 0, 0, 0.432);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0, 0, 0);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+marquee {
+  width: 100%;
+  color: rgb(255, 0, 0);
+}
+
+/* .lgbg {
+	background: rgb(255, 41, 219);
+} */
+
+.fmt {
+  margin-top: -38px;
+}
+
+
+
+
+
+.logbtn {
+  background: #336699;
+}
+
+.logbtn:hover {
+  background: #001f3d;
+}
+
+.regbtn {
+  background: #336699;
+}
+
+.regbtn:hover {
+  background: #001f3d;
+}
+
+.homee {
+  min-height: 100vh;
+  /* display: flex; */
+  align-items: center;
+  background: url(../img/uni2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* animation: change 5s infinite ease-in-out;  */
+}
+
+@keyframes change {
+  0% {
+    background-image: url(../img/bg.jpg);
+  }
+  80% {
+    background-image: url(../img/bg2.jpg);
+  }
+}
