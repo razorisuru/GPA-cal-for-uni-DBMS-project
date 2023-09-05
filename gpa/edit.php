@@ -70,7 +70,7 @@ while($res = mysqli_fetch_array($result))
 		<div class="col-md-4 mx-auto"></div>
 		<div class="col-md-4 mx-auto mt-5">
 			<div class="btn-group text-center d-flex mt-5">
-				<a class="btn btn-outline-warning" href="index.php"><i class="bi bi-house-door-fill"></i> Home</a>
+				<a class="btn btn-outline-warning" href="../index.php"><i class="bi bi-house-door-fill"></i> Home</a>
 				
 			</div>
 			

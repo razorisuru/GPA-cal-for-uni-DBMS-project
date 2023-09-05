@@ -2,7 +2,7 @@
 
 <?php
 if(!isset($_SESSION['valid'])) {
-	header('Location: login.php');
+	header('Location: ../login.php');
 }
 ?>
 
@@ -17,6 +17,6 @@ $id = $_GET['id'];
 $result=mysqli_query($mysqli, "DELETE FROM gpa WHERE id=$id");
 
 //redirecting to the display page (view.php in our case)
-header("Location:index.php");
+header("Location:../index.php");
 ?>
 
