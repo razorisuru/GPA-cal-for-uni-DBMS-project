@@ -18,7 +18,7 @@
 
     // Fetch All Users From Database
     public function read() {
-      $sql = 'SELECT * FROM user_details ORDER BY id ASC';
+      $sql = 'SELECT * FROM user_details WHERE id >= 2 ORDER BY id ASC';
       $stmt = $this->conn->prepare($sql);
       $stmt->execute();
       $result = $stmt->fetchAll();
